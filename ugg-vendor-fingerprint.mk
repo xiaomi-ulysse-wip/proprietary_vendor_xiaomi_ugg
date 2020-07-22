@@ -22,6 +22,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ugg/fingerprint/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
     vendor/xiaomi/ugg/fingerprint/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/ugg/fingerprint/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so
-
-PRODUCT_PACKAGES += \
-    FingerprintExtensionService
